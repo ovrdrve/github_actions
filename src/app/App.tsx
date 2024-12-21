@@ -27,7 +27,7 @@ export const App = () => {
 				<Route
 					path='/modal'
 					element={
-						<Suspense fallback={<div>Loading...</div>}>
+						<Suspense fallback={<div>Loading</div>}>
 							<Modal />
 						</Suspense>
 					}
@@ -35,7 +35,7 @@ export const App = () => {
 				<Route
 					path='/another'
 					element={
-						<Suspense fallback={<div>Loading...</div>}>
+						<Suspense fallback={<div>Loading</div>}>
 							<AnotherComponent />
 						</Suspense>
 					}
